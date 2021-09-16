@@ -1,0 +1,11 @@
+.navBar{
+    /* background-color: rgba(8, 38, 46, 0.644); */
+    width: 97vw;
+}
+
+.navBar img {
+    width: 13%;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin-top: 10px;
+    margin-left: 10px;
+}

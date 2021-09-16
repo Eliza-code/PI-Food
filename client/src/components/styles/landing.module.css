@@ -1,0 +1,44 @@
+.container{
+    background-image: url('https://hintwallaper.com/wp-content/uploads/2020/11/Food-Wallpaper-HD-Download.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.btnLanding{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    
+}
+.btnLanding img {
+    width:20%;
+    margin-bottom: 50px;
+    margin-top:150px;
+    margin-left:150px;
+}
+
+.btn{
+    background-color: rgba(8, 38, 46, 0.644);
+    color: rgb(236, 230, 230);
+    border-radius: 5px;
+    cursor: pointer;
+    padding:10px;
+    font-size: medium;
+    margin-left: 210px;
+    border: none;
+}
+
+
+.btn:hover {
+    background-color: white; 
+    color: rgba(0, 195, 255, 0.644);
+} 

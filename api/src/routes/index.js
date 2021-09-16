@@ -5,8 +5,16 @@ const { Router } = require('express');
 
 const router = Router();
 
+const {getRecipes, getRecipeById, postRecipe , getDiets} = require ('../controlers/index');
+
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 
+router.get("/recipes", getRecipes);
+router.get("/recipes/:id", getRecipeById);
+router.post("/recipes", postRecipe);
+
+
+router.get("/diets", getDiets);
 
 module.exports = router;

@@ -1,0 +1,23 @@
+.paginationContainer {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        margin-bottom: 40px;
+}
+
+.page{
+   border: none;
+    width:40px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+   
+}
+
+
+.page:hover {
+    background-color: rgba(6, 32, 39, 0.932);
+    color: white;
+} 

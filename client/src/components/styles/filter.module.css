@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro&display=swap');
+
+.filterContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.filter h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+.select{
+    background-color: rgba(8, 38, 46, 0.644);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
